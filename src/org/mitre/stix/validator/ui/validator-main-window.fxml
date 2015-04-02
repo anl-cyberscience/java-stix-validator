@@ -28,9 +28,10 @@
                 </VBox>
             </left>
             <right>
-                <ComboBox fx:id="stixVersion" value="Version 1.1">
+                <ComboBox fx:id="stixVersion" value="Version 1.1.1">
                     <items>
                         <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="Version 1.1.1" />
                             <String fx:value="Version 1.1" />
                             <String fx:value="Version 1.0.1" />
                             <String fx:value="Version 1.0" />
