@@ -3,6 +3,17 @@ apply plugin: 'eclipse'
 
 sourceCompatibility = '1.8'
 
+sourceSets {
+	main {
+		java {
+			srcDir 'src'
+		}
+		resources {
+			srcDir 'resources'
+		}
+	}
+}
+
 repositories {
 	mavenCentral()
 }
@@ -13,6 +24,7 @@ dependencies {
 
 version = '1.0'
 jar {
+	baseName = 'STIX_Validator'
 	manifest {
 		attributes 'Implementation-Title': 'STIX Validator',
 				   'Implementation-Version': version,
