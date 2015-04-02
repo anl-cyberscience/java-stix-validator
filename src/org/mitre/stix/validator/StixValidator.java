@@ -4,7 +4,7 @@
  */
 package org.mitre.stix.validator;
 
-import org.mitre.stix.validator.sp.SuggestedPracticeValidator;
+//import org.mitre.stix.validator.sp.SuggestedPracticeValidator;
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
@@ -29,7 +29,7 @@ public class StixValidator {
     private Schema schema;
 
     // The list of best practice validators
-    private List<SuggestedPracticeValidator> suggestedPracticeValidators = new ArrayList<SuggestedPracticeValidator>();
+    //private List<SuggestedPracticeValidator> suggestedPracticeValidators = new ArrayList<SuggestedPracticeValidator>();
 
     // Create a new validator for a given STIX version
     public StixValidator(String version) throws SAXException {
